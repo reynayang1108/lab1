@@ -1,6 +1,10 @@
 /* applies to anything of class "example-class-selector" */
+.project1 {
+     text-align: right;
+
+}
 .example-class-selector {
-	margin-top: 2em;
+	margin-top: 10em;
 }
 
 /* applies to any <p> descendants of an element of class "example-class-selector" */
@@ -12,8 +16,9 @@
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
-     border: 1px dotted gray;
-     padding: 20px;
+     border: 1px dotted darkblue;
+     padding: 30px;
+     background-color: skyblue;
 }
 
 .jumbotron {
